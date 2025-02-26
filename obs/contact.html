@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f9f9f9, #e0e0e0);
+            margin: 2;
+            padding: 9;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;     
+        }
+
+        header {
+      background: linear-gradient(135deg, aqua, #2575fc);
+      color: white;
+      padding: 1rem;
+      animation: fadeIn 3s ease-in-out;
+      gap: 20px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: auto;
+      gap: 20px;
+    }
+
+    nav h1 {
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 1rem;
+    }
+
+    nav ul li button {
+        background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;   
+    }
+
+    nav ul button li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffdd57;
+    }
+        
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+        
+        .text-center h1 {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        
+        .text-center p {
+            color: #555;
+        }
+        
+        .contact-info h3 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info p {
+            margin: 5px 0;
+        }
+        
+        .contact-info a {
+            color: #642ec0;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+            color: #fff;
+        }
+
+        .contact-info .box {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            animation: fadeInAnimation 2s ease forwards;
+            transition: background 3s;
+        }
+
+        .contact-info .box:hover {
+            background: green;
+            color: #fff;
+        }
+        
+        form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-group {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        
+        .form-group i {
+            position: absolute;
+            top: 50%;
+            left: 15px;
+            transform: translateY(-50%);
+            color: #007bff;
+            font-size: 18px;
+        }
+        
+        .form-control {
+            padding-left: 50px; /* Adjust for icon spacing */
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        
+        button {
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+        #response-message {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        .success {
+            color: #28a745;
+        }
+        
+        .error {
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class = "contact-bg">
+        
+        <h3>Get in Touch with Us</h3>
+        <h2>contact us</h2>
+        <div class = "line">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <p class = "text">Mul'ata Hayu Academy Online Book Store</p>
+      </div>
+    <div class="container">
+        <div class="text-center">
+            <h1>Contact Us</h1>
+            <p class="lead">We would love to hear from you. Please reach out using the form below.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-info">
+                    <div class="box">
+                    <h3><i class="bx bx-phone"></i> Mobile</h3>
+                    <p>Mobile: <a href="tel:+1234567890">+251 901210000</a></p>
+                </div>
+                </div><br><br>
+                <div class="contact-info">
+                    <div class="box">
+                    <h3><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAgtJREFUWEft10vITVEYxvHf55JyKQNymciMgUzFzEyEUAyMlFKUy8A9E+RWSkqZKDGgECIzMzKVATMZCJkol5LrebW2VrvOt/f+9j71Dc6a7bXW+7z/86x3Xc6IcdZGxhmPIVDVigwdaupQOHYUOzGnKrjl+AdcxMlcp7xk57G3ZaKm4cdxrAgqA33ErKaKLee/w/x+QH8y8Wn41jJZv/Cp+JoN/jem7FAO9BKr8bpjqIV4iMVNgWL+Z2zF/Y6g1uI6ZpT0ajmUx0Sx78evMYJNxFns6xNfC+gVFmUCT7AJ7xtCzcUtrMjiytq1gKb3gG5gTSYUu3A9ntaEWo67mJ3Nf4At+NK0hgrqQziBCUkglu0IzlRAHUiHXixXtN8p7nT6zjdQLYfyHbgStzEzg3iEzanwc7Yo2JtYlXV+wkY8zvpaAYXOAtzD0kw0joR1vWQvUt+SNCe2dtGepzlvSo62Bgq9KbianCn0v2Nb+riS5hRj17AdMafcOgEqRHchjoLJferoB/bg0ih11ilQ5FmWDsx8B0V/3E0b8Kyi6DsHinzzcCfBxXdAxGkcx0NVGwhQJJ3UOyx3IBJc7r2nflaRpPGBAdXMP9iiHitEHjd0qMrFWg7FTT7ox30ZdNQn7CkcrPppHY+P+siPC/UwdpeeDB0z/JN7iws4l4sP/7lWWT10aOhQlQNV438BRM5lJbOIxNYAAAAASUVORK5CYII="/> Email</h3>
+                    <p>Email: <a href="tel:+1234567890">muletahayu2011@gmail.com</a></p>
+                </div>
+                </div><br><br>
+                <div class="contact-info">
+                    <div class="box">
+                    <h3><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAmhJREFUWEftl02oTVEUx38PIZKYeYqIYkoYiMREJoSXYqDMKENGymdJGZlQLymREolM5NVTTLySTBQKRQYiUkj52n+2uh37nrXWuffWS1bd7mCvvdbvrL3Xx+5jlEnfKOPhnwGaDmwG1gPzgP4c6VfAY+AqcBl4Fz2BaIRmAfuA7cB4w9kX4DRwFHjpBYsADaRonHOAVH1/ArYA1z1QXqC9wDGPwRqdncApy4YHaBNwyTLkWP8OrANu1OlaQHOBh+keTHA49Kh8AOYDr9spW0DKlI2Gp4Np/UDW0f9+Q/9kAtrVBGhhjo715VGgr8AM4E3JcF2ElN6HLRogCiSTO4AzUaA7wPIeAV3MpeAv83URep6+YnYBSBFplVuAfpJV+de6XrpT94FF0Qh9BCYVNlmJUN3yo2DjPTAtCvQZmNgjIFXvyVEgNUplQ1W6cWS6DnOiQEPAmh5d6mt5UghdaqW8Ut+SJmm/BzgejdCS1HtGLJqGdUhjzIsokPTVx1Sx6yQaodvAynYGrRTemprheUeUIiqaNNUji2IBjQEe5TE14rSd7j1AV6FUm37tsYCkswG40gUaQSxO2aUq3VY8QNp8AtjdIdQhx2jiipA4NNA/ABY0hFJNWwt8s/Z7IyQ7yra7wBTLaGVdR7QCUG80JQIkY+rmN4FxpuXfCk+Bpem43zr13UfWam9bfg5ZPjQ3LwPUt9wSjdAfw4I6C6gslEQQq9OD8pmbJCs2BdJ2Pf5UNMdWnD7JR6tpISydAMmZLusFYGb2PJzrlp47jaRTIDmdmoAGc0U/AuhN31i6AdTYeWnjfyArnD8BjE5nJWRK2aMAAAAASUVORK5CYII="/> Location: </h3>
+                    <p>Location: <a href="tel:+1234567890">Burayu Maram</a></p>
+                </div>
+                </div><br><br>
+            </div>
+            <div class="col-md-6">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <i class="bx bx-user"></i>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="bx bx-envelope"></i>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="bx bx-comment"></i>
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+                <div id="response-message" class="mt-3"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        // Initialize EmailJS with your user ID
+        emailjs.init("YOUR_USER_ID");
+
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            // Collect form data
+            const form = event.target;
+            const formData = new FormData(form);
+
+            // Send email using EmailJS
+            emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData)
+                .then((response) => {
+                    console.log('Success:', response);
+                    document.getElementById('response-message').className = 'success';
+                    document.getElementById('response-message').textContent = 'Thank you for your message! We will get back to you soon.';
+                    form.reset(); // Reset the form
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                    document.getElementById('response-message').className = 'error';
+                    document.getElementById('response-message').textContent = 'Oops! Something went wrong. Please try again later.';
+                });
+        });
+    </script>
+</body>
+</html>

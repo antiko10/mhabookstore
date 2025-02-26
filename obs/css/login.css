@@ -1,0 +1,68 @@
+body{
+    background: #fff;
+    font-family: sans-serif;
+    font-size: 10px;
+    justify-content: center;
+    margin: 0;
+}
+
+.div{
+    background: #fff;
+    padding: 2em 4em 2em;
+    max-width: 500px;
+    margin: 50px auto;
+    height: 500px;
+    box-shadow: 0 0 1em #00BBD3;
+    font-family: sans-serif;
+    border-radius: 1px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+form h5{
+    font-family: sans-serif;
+    color: #00BBD3;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: default;
+}
+
+form h2{
+    font-family: sans-serif;
+    color: #00BBD3;
+    font-size: 25px;
+    text-align: center;
+    cursor: default;
+}
+
+input{
+    margin: 20px;
+    border: 1px solid black;
+    width: 375px;
+    font-size: 18px;
+    height: 55px;
+    border-radius: 40px;
+    padding: 10px;
+    color: #00BBD3;
+}
+
+form .btn {
+    border-radius: 70px;
+    margin-top: 2rem;
+    padding: 0.4rem;
+    width: 100%;
+    background: linear-gradient(343deg, #00BBD3, aqua);
+    color: black;
+    height: 55px;
+    transition: all 0.3s ease;
+}
+
+form .btn:hover {
+    background: linear-gradient(to left, #4776E6, #8e54e9);
+    color: white;
+}
+
+.signUpBtn{
+    font-style: normal;
+}
